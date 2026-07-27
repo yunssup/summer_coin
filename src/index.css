@@ -1,0 +1,18 @@
+/*전체 프로젝트 영향*/
+:root {
+  --vh: 100%;
+}
+
+@font-face {
+  font-family: "경기천년바탕_Regular";
+  font-weight: normal;
+  src: url("./assets/경기천년바탕_Regular.ttf") format("truetype");
+}
+
+body {
+  /* 가운데정렬 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "경기천년바탕_Regular";
+}
